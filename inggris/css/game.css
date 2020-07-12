@@ -1,0 +1,58 @@
+.belakang-main {
+    background-color: #BFE5E8;
+}
+
+.header-main {
+  width: 100%;
+    height: 100px;
+    background-color: #ffff1f;
+    margin-top: -100px;
+    border-radius: 0px 0px 0px 100px;
+}
+
+.skor {
+    background-color: #E2DA71;
+    height: 100px;
+}
+
+.belakang-soal {
+    background-color: #FBE2ED;
+    min-height: 200px;
+}
+
+.border-soal {
+    border: 2px solid black;
+    min-height: 200px;
+}
+
+.form-soal {
+    border-bottom: 2px solid black;
+    margin-top: 100px;
+
+}
+
+.isi-soal {
+    border: 2px solid black;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.isi-teka-teki {
+    border: 2px solid black;
+    padding: 0;
+    border-radius: 5px;
+    background-color: white;
+    min-height: 50px;
+}
+.nomor{
+    font-size: 13px; 
+    margin: 0;
+    
+}
+.warna{
+    background-color: #E1ECC1;
+}
+.warna2{
+    background-color: #FFF9C0;
+}

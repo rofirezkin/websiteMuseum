@@ -1,0 +1,48 @@
+table {
+    text-align: center;
+}
+
+td input margin{
+    margin-top: -20px,
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    
+    
+}
+
+td input {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0;
+    min-height: 20px;
+    border-radius: 5px;
+
+}
+
+.text-font{
+    margin-top: -24px;
+    z-index: 1;
+    padding-left: 5px;
+
+}
+
+
+
+.warna{
+    background-color: #E1ECC1;
+}
+.warna2{
+    background-color: #FFF9C0;
+}
+
+.nomor{
+    font-size: 13px; 
+    margin: 0;
+    
+}
