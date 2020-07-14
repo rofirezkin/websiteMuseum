@@ -23,7 +23,7 @@ a:hover {
 /* general */
 #grad {
     background-image: linear-gradient(to right, #A0B066, transparent, transparent, transparent, #A0B066);
-    height: 120px;
+    height: 110px;
     color: white;
     font-family: Bahnschrift;
     width: 100%;
@@ -64,11 +64,11 @@ a:hover {
 }
 
 #res1 {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #res2 {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #kembali {
@@ -132,7 +132,7 @@ a:hover {
 }
 
 .text-info-1 {
-  
+
     font-size: 70px;
     font-family: 'Raleway', sans-serif;
     color: white;
@@ -148,13 +148,10 @@ a:hover {
 
 .border-bawah {
     border-top: 10px solid #FFFFFF;
-    text-align: center;
-    margin: 0px 200px 0px 200px;
-
 }
 
 .garis-bawah {
-    border-top: 10px solid black;
+    border-top: 9px solid black;
 }
 
 .gambar-slider {
@@ -266,19 +263,41 @@ footer {
     color: white;
 }
 
+/* ccs tentang */
+.map-1 {
 
+    margin: 0px;
+    padding: 0px;
+    height: 600px;
+}
 
+.schedule {
+    padding: 0px;
+    height: 500px;
+    margin: 30px 0px;
+}
+
+.schedule-2 {
+    background-color: #A0B066;
+    width: 100%;
+    padding-right: 50px;
+}
+
+.schedule-3 {
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+/* end tentang */
 
 @media screen and (max-width: 1200px) {
     .border-gambar {
         width: 100%;
         margin-left: 30px;
-    
+
 
     }
-    .garis-bawah{
-        border: none;
-    }
+
 
     .gambar-slider {
         width: 100%;
@@ -386,7 +405,7 @@ footer {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .brand img {
         width: 40px;
         margin-top: 30px;
