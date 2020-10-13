@@ -56,3 +56,14 @@
 .warna2{
     background-color: #FFF9C0;
 }
+.cover {
+    position: relative;
+    height: calc(160vh - 90px);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(../image/game/3.png)
+  }
+  .judul-game{
+      margin-top: 10%;
+  }

@@ -119,6 +119,13 @@ a:hover {
     color: #ffffff;
 
 }
+.carousel-tok {
+    height: 505px;
+    background-color: #A0B066;
+    padding-top: 120px;
+    color: #ffffff;
+
+}
 
 .text-slider {
     padding-top: 70px;
@@ -168,6 +175,12 @@ a:hover {
     z-index: 1;
 
 
+}
+.gbr-mg{
+    margin: -300px 0px 40px -60px;
+    z-index: 1;
+
+    
 }
 
 .gambar-produk-2 {
@@ -404,12 +417,30 @@ footer {
 
 }
 
-@media screen and (max-width: 600px) {
-.gambar-produk{
-    margin: 10px;
+
+@media screen and (max-width: 800px){
+    .gambar-produk{
+        margin-top: 25%;
+        margin-left: 0px;
+        
+    }
+
+
+    .gambar-produk-2 {
+        text-align: center;
+        margin: 0px;  
+       
+    
+    }
+    .carousel-tok {
+    display: none;
+    
+    }
+    .btn-light{
+        background-color:#A0B066 ;
+    }
 }
 
-}
 @media screen and (max-width: 600px) {
     .brand img {
         width: 40px;
@@ -441,7 +472,12 @@ footer {
     #grad {
         height: 70px;
     }
-
+    #grad-2 {
+        background-image: linear-gradient(to right, #A0B066, transparent, transparent);
+        height: 70px;
+        color: white;
+        font-family: Bahnschrift;
+    }
 
 
     .text-home {
